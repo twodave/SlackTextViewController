@@ -654,6 +654,8 @@ CGFloat const SLKAutoCompletionViewDefaultHeight = 140.0;
     else {
         [self.textView resignFirstResponder];
     }
+    
+    [self.textInputbar layoutSubviews];
 }
 
 - (BOOL)forceTextInputbarAdjustmentForResponder:(UIResponder *)responder
